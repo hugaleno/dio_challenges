@@ -1,5 +1,5 @@
 # Desafio: Abreviando post do blog
-## Fonte: https://web.digitalinnovation.one/
+>Fonte: https://web.digitalinnovation.one/
 
 Leonardo é um nômade digital e viaja pelo mundo programando em diferentes cafés das cidades por onde passa. Recentemente, resolveu criar um blog, para compartilhar suas experiências e aprendizados com seus amigos.
 
@@ -30,7 +30,7 @@ Em seguida, imprima um inteiro N, indicando o número de palavras em que foram e
 
 
 # Desafio: Conjunto bom ou Ruim 
-## Fonte: https://web.digitalinnovation.one/
+>Fonte: https://web.digitalinnovation.one/
 
 Nesse algoritmo você deverá descobrir se um conjunto de palavras é bom ou ruim. Por definição, um conjunto é bom quando nenhuma palavra desse conjunto é um prefixo de outra palavra. Caso contrário, é considerado um conjunto ruim.
 
@@ -46,3 +46,18 @@ Para cada caso de teste, você deverá imprimir "Conjunto Bom", ou "Conjunto Rui
 | ---------------- | -------------- |
 |3<br>abc<br>dae<br>abcde<br>2<br>abc<br>def<br>0<br>|Conjunto Ruim<br>Conjunto Bom|
  
+
+# Desafio: Encontrando a maior substring
+>Fonte: https://web.digitalinnovation.one/
+
+Encontre a maior substring comum entre as duas strings informadas. A substring pode ser qualquer parte da string, inclusive ela toda. Se não houver subseqüência comum, a saída deve ser “0”. A comparação é case sensitive ('x' != 'X').
+
+## Entrada
+A entrada contém vários casos de teste. Cada caso de teste é composto por duas linhas, cada uma contendo uma string. Ambas strings de entrada contém entre 1 e 50 caracteres ('A'-'Z','a'-'z' ou espaço ' '), inclusive, ou no mínimo uma letra ('A'-'Z','a'-'z').
+
+## Saída
+O tamanho da maior subsequência comum entre as duas Strings.
+
+|Exemplo de Entrada|Exemplo de Saída|
+| ---------------- | -------------- |
+|abcdef<br>cdofhij<br>TWO<br>FOUR<br>abracadabra<br>open<br>Hey This java is hot<br>Java is a new paradigm<br>|2<br>1<br>0<br>7<br>|
