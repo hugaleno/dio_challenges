@@ -28,7 +28,7 @@ Em seguida, imprima um inteiro N, indicando o número de palavras em que foram e
 |abcdef abc abc abc<br>.|a. abc abc abc<br>1<br>a. = abcdef|
                     
 
-
+---
 # Desafio: Conjunto bom ou Ruim 
 >Fonte: https://web.digitalinnovation.one/
 
@@ -46,7 +46,7 @@ Para cada caso de teste, você deverá imprimir "Conjunto Bom", ou "Conjunto Rui
 | ---------------- | -------------- |
 |3<br>abc<br>dae<br>abcde<br>2<br>abc<br>def<br>0<br>|Conjunto Ruim<br>Conjunto Bom|
  
-
+---
 # Desafio: Encontrando a maior substring
 >Fonte: https://web.digitalinnovation.one/
 
@@ -62,8 +62,27 @@ O tamanho da maior subsequência comum entre as duas Strings.
 | ---------------- | -------------- |
 |abcdef<br>cdofhij<br>TWO<br>FOUR<br>abracadabra<br>open<br>Hey This java is hot<br>Java is a new paradigm<br>|2<br>1<br>0<br>7<br>|
 
+---
+# Desafio: Entrevista embaraçosa
+>Fonte: https://web.digitalinnovation.one/
 
+A nutricionista Juliana Alcantra é uma excelente profissional de sua área. Em determinado dia, ela foi entrevistada ao vivo para um jornal da cidade. No entanto, ficou um pouco nervosa na hora, e diante da situação, sua fala ficou um pouco distorcida, repetindo o final de cada palavra após dizer a mesma. Para que isso não aconteça novamente, ela precisa da sua ajuda para escrever um programa que omita a parte repetida, de modo que as palavras sejam pronunciadas como deveriam ser.
+
+Escreva um programa que, dada uma palavra errada, a mesma seja corrigida.
+
+## Entrada
+Haverá diversos casos de teste. Cada caso de teste é formado por uma palavra, de, no máximo, 30 caracteres, dita da forma errada. A entrada termina com fim de arquivo.
+
+## Saída
+Para cada caso de teste, escreva a palavra devidamente corrigida. Analise os exemplos para verificar o padrão, de modo a consertar todos os casos.
+
+|Exemplo de Entrada|Exemplo de Saída|
+| ---------------- | -------------- |
+|sanduicheiche<br>barrilarril<br>ratoato<br>sol<br>coliseueu<br>queijoijo<br>astroastro<br>a<br>|sanduiche<br>barril<br>rato<br>sol<br>coliseu<br>queijo<br>astro<br>a<br>|
+
+---
 # Desafio: Validador de senhas com requisitos
+>Fonte: https://web.digitalinnovation.one/
 
 Pedro e Fernando são os desenvolvedores em uma stratup e vão desenvolver o novo sistema de cadastro, e pediram a sua ajuda. Sua task é fazer o código que valide as senhas que são cadastradas, para isso você deve atentar aos requisitos a seguir:
 
