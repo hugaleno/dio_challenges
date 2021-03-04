@@ -100,3 +100,54 @@ A saída contém uma linha, que pode ser “Senha valida.”, caso a senha tenha
 |Exemplo de Entrada|Exemplo de Saída|
 | ---------------- | -------------- |
 |Digital Innovation One<br>AbcdEfgh99<br>DigitalInnovationOne123<br>Digital Innovation One 123<br>Aass9<br>Aassd9<br>|Senha invalida.<br>Senha valida.<br>Senha valida.<br>Senha invalida.<br>Senha invalida.<br>Senha valida.<br>|
+
+# Desafio: Divisores
+>Fonte: https://web.digitalinnovation.one/
+
+Pense um número positivo n. Agora me diga um divisor A de n. Agora me dê um outro número B que não seja divisor de n. Agora um múltiplo C. E um não múltiplo D. O número que você pensou é...
+
+Parece um truque de mágica, mas é matemática! Será que, conhecendo os números A, B, C e D, você consegue descobrir qual era o número original n? Note que pode existir mais de uma solução!
+
+Neste problema, dados os valores de A, B, C e D, você deve escrever um programa que determine qual o menor número n que pode ter sido pensado ou concluir que não existe um valor possível.
+
+## Entrada
+A entrada consiste de uma única linha que contém quatro números inteiros A, B, C, e D, como descrito acima (1 ≤ A, B, C, D ≤ 109).
+
+## Saída
+Seu programa deve produzir uma única linha. Caso exista pelo menos um número n para os quais A, B, C e D façam sentido, a linha deve conter o menor n possível. Caso contrário, a linha deve conter -1.
+
+|Exemplo de Entrada|Exemplo de Saída|
+| ---------------- | -------------- |
+|2 12 8 2|4|
+|3 4 60 105|6|
+|2 40 90 25|2|
+
+# Desafio: Análise de números
+>Fonte: https://web.digitalinnovation.one/
+
+Você deve fazer a leitura de 5 valores inteiros. Em seguida mostre quantos valores informados são pares, quantos valores informados são ímpares, quantos valores informados são positivos e quantos valores informados são negativos.
+
+## Entrada
+Você receberá 5 valores inteiros.
+
+## Saída
+Exiba a mensagem conforme o exemplo de saída abaixo, sendo uma mensagem por linha e não esquecendo o final de linha após cada uma.
+
+|Exemplo de Entrada|Exemplo de Saída|
+| ---------------- | -------------- |
+|-5<br>0<br>-3<br>-4<br>12<br>|3 valor(es) par(es)<br>2 valor(es) impar(es)<br>1 valor(es) positivo(s)<br>3 valor(es) negativo(s)|
+
+# Desafio: Contagem repetida de números
+>Fonte: https://web.digitalinnovation.one/
+
+Neste desafio sua tarefa será ler vários números e em seguida dizer quantas vezes cada número aparece, ou seja, deve-se escrever cada um dos valores distintos que aparecem na entrada por ordem crescente de valor.
+
+## Entrada
+A primeira linha de entrada contem um único inteiro N, que indica a quantidade de valores que serão lidos para X (1 ≤ N ≤ 2000) logo em seguida. Com certeza cada número não aparecerá mais do que 20 vezes na entrada de dados.
+
+## Saída
+Imprima a saída de acordo com o exemplo fornecido abaixo, indicando quantas vezes cada um deles aparece na entrada por ordem crescente de valor.
+
+|Exemplo de Entrada|Exemplo de Saída|
+| ---------------- | -------------- |
+|7<br>8<br>10<br>8<br>260<br>4<br>10<br>10|4 aparece 1 vez(es)<br>8 aparece 2 vez(es)<br>10 aparece 3 vez(es)<br>260 aparece 1 vez(es)|
